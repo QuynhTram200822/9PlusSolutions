@@ -1,19 +1,15 @@
 // 基本設定
 $pc: 768px; // PC
 $sp: 767px; //スマートフォン
-$base-width: 1232px;
-$txt-size: 1rem;
-$txt-size-sp: 0.75rem;
+$base-width: 1230px;
+$txt-size: 16px;
+$txt-size-sp: 14px;
 $line-height: 2;
-$txt-font: 'Dela Gothic One', 'Arial', 'Helvetica', 'Noto Sans', sans-serif;
-$sub-font: 'Noto Sans', sans-serif;
-$accent-font: "Noto Sans JP", sans-serif;
+$txt-font: 'Noto Sans', sans-serif;
 $txt-color: #111111;
 $hover-color: #2FD9FF;
-$base-color: #1F4C9F;
-$btn-color: #008ECF;
-$span01: #ff3b3b;
-$span02: #088fdc;
+$base-color: #308219;
+$sub-color: #2463EC;
 $bg01: #FFFFFF;
 $transition: .3s all ease-in-out;
 @mixin pc {
