@@ -38,7 +38,7 @@
         font-size: 70px;
         font-weight: 400;
         span {
-          color: $span01;
+          // color: $span01;
         }
 
         @include sp {
@@ -61,7 +61,7 @@
         }
       }
       .mv_desc {
-        font-family: $sub-font;
+        // font-family: $sub-font;
         font-weight: 400;
         font-size: 18px;
         line-height: 156%;
@@ -92,7 +92,6 @@
           border: 1px solid #ffffff;
           display: block;
           font-weight: 900;
-          font-family: $sub-font;
           padding: 12px 48px;
           font-size: 16px;
           text-align: center;
@@ -101,12 +100,12 @@
 
           &:active,
           &.is-active {
-            background: $btn-color;
+            background: $sub-color;
             border: 1px solid transparent;
           }
 
           &:hover {
-            background: $btn-color;
+            background: $sub-color;
             border: 1px solid transparent;
           }
 
