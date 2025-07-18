@@ -1,136 +1,125 @@
 // Main Visual Section
 .hm_mainvisual {
-  position: relative;
-
-  .mv_item {
-    background-image: url(../imgs/home/bg-banner.gif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 757px;
-    position: relative;
-    z-index: 1;
-
-    @include sp {
-      background-size: auto 100%;
-      height: 500px;
-    }
+  padding: 60px 0;
+  background: linear-gradient(135deg, rgba(36, 99, 236, 0.05) 0%, rgba(48, 130, 25, 0.03) 100%);
+  @include sp {
+    padding: 30px 0;
   }
-
   .mv_inner {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-
-    .mv_cnt {
-      max-width: 73%;
-      color: #fff;
-
-      @include sp {
-        max-width: 100%;
+    .mv_cnt_wrapper {
+      display: flex;
+      gap: 20px;
+      @media (max-width: 992px){
+        flex-direction: column;
+        gap: 30px;
       }
-
-      .mv_ttl {
-        line-height: 100%;
-        margin-bottom: 19px;
-        letter-spacing: 1.5px;
-        font-size: 70px;
-        font-weight: 400;
-        span {
-          // color: $span01;
-        }
-
-        @include sp {
-          font-size: 30px;
-          letter-spacing: -0.9px;
-          margin-bottom: 13px;
-        }
-      }
-      .mv_sub-ttl {
-        line-height: 100%;
-        margin-bottom: 57px;
-        letter-spacing: 5px;
-        font-size: 48px;
-        font-weight: 400;
-
-        @include sp {
-          font-size: 20px;
-          margin-bottom: 17px;
-          letter-spacing: 0;
-        }
-      }
-      .mv_desc {
-        // font-family: $sub-font;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 156%;
-        letter-spacing: 0;
-        width: 79%;
-        span {
-          font-weight: 900;
-        }
-
-        @include sp {
-          font-size: 14px;
-          width: 100%;
-        }
-      }
-      .mv_btn {
-        display: flex;
-        gap: 15px;
-        margin-top: 57px;
-
-        @include sp {
-          flex-direction: column;
-          gap: 8px;
-          margin-top: 13px;
-        }
-
-        a {
-          color: $bg01;
-          border: 1px solid #ffffff;
-          display: block;
-          font-weight: 900;
-          padding: 12px 48px;
-          font-size: 16px;
-          text-align: center;
-          text-decoration: none;
-          transition: background-position 0.2s ease-in-out;
-
-          &:active,
-          &.is-active {
-            background: $sub-color;
-            border: 1px solid transparent;
+      .mv_cnt {
+        color: $txt-color;
+        flex: 1;
+        .mv_ttl {
+          margin-bottom: 19px;
+          font-size: 60px;
+          font-weight: 600;
+          line-height: 1.2;
+          .text-blue {
+            color: $sub-color;
           }
-
-          &:hover {
-            background: $sub-color;
-            border: 1px solid transparent;
+          .text-green {
+            color: $base-color;
           }
-
           @include sp {
-            padding: 8px 0px;
-            width: 100%;
+            font-size: 30px;
+            margin-bottom: 13px;
+          }
+        }
+        .mv_desc {
+          font-size: 24px;
+          @include sp {
             font-size: 14px;
+            width: 100%;
+          }
+        }
+        .mv_btn {
+          display: flex;
+          gap: 15px;
+          margin-top: 27px;
+          color: $bg01;
+          @include sp {
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 13px;
+          }
+          a {
+            color: $bg01;
+            display: block;
+            font-weight: 900;
+            padding: 12px 48px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-position 0.2s ease-in-out;
+            border-radius: 5px;
+            @include sp {
+              padding: 8px 0px;
+              width: 100%;
+              font-size: 14px;
+            }
+          }
+          .regis-btn {
+            background-color: $sub-color;
+            border: 1px solid $sub-color;
+            &:hover {
+              background-color: transparent;
+              color: $sub-color;
+            }
+          }
+          .view-btn {
+            color: $base-color;
+            border: 1px solid $base-color;
+            &:hover {
+              background-color: $base-color;
+              color: $bg01;
+            }
           }
         }
       }
-    }
-  }
-
-  .mv_bottom-deco {
-    background-image: url("../imgs/home/home\ bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2;
-    pointer-events: none;
-    @media screen and (max-width: 375px) {
-      background-image: url("../imgs/home/sp\ home\ bg.svg");
+      .mv_img {
+        flex: 1;
+        position: relative;
+        img {
+          height: 100%;
+          object-fit: cover;
+          border-radius: 20px;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+        }
+        .mv_img__badge {
+          background-color: $bg01;
+          position: absolute;
+          bottom: -30px;
+          left: -25px;
+          padding: 12px;
+          border-radius: 6px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+          @media (max-width: 992px){
+            display: none;
+          }
+          .mv_img__badge-icon {
+            border-radius: 50%;
+            background-color: #dbfce8;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .mv_img__badge-value{
+            color: $base-color;
+          }
+        }
+      }
     }
   }
 }

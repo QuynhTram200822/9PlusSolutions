@@ -79,7 +79,6 @@ img {
 
 header {
 	left: 0;
-  padding-bottom: 20px;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -169,10 +168,10 @@ header.is-fixed .hd_nav_main li:not(:last-child) a {
 }
 
 .hd_left {
-	padding: 12px 0 0 0;
+	padding: 12px 0 ;
 	width: 40%;
 	@include sp {
-		padding: 0;
+		padding: 10px;
 		width: 60%;
   }
 }
@@ -210,7 +209,6 @@ header.is-fixed .hd_nav_main li:not(:last-child) a {
 	@include sp {
 		display: block;
 		gap: 0;
-    padding-top: 17px;
     .menu_toggle {
       .ico_open,
       .ico_close {
@@ -243,7 +241,6 @@ header.is-fixed .hd_nav_main li:not(:last-child) a {
 	gap: 33px;
 	justify-content: space-between;
   align-items: center;
-  padding-top: 12px;
 	li {
 		&:last-child a {
       background: $sub-color;
@@ -300,7 +297,9 @@ header.is-fixed .hd_nav_main li:not(:last-child) a {
 
 main {
 	overflow-x: hidden;
+  margin-top: 73px;
   @include sp {
+  margin-top: 56px;
     &.js_menu_open {
       max-height: 60px;
       overflow: hidden;
