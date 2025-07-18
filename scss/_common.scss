@@ -122,7 +122,7 @@ header {
         a {
           background: url("images/ico/sp-menu-icon.png") no-repeat center right 20px;
           background-size: 14px auto;
-          font-family: $sub-font;
+          font-family: $txt-font;
         }
       }
       .sp_group_links {
@@ -248,7 +248,7 @@ header.is-fixed .hd_nav_main li:not(:last-child) a {
   padding-top: 12px;
 	li {
 		&:last-child a {
-      background: $btn-color;
+      // background: $btn-color;
       color: $bg01;
       font-size: 14px;
       font-weight: 900;
@@ -263,7 +263,7 @@ header.is-fixed .hd_nav_main li:not(:last-child) a {
 	}
 	a {
     color: $bg01;
-    font-family: $sub-font;
+    font-family: $txt-font;
     font-size: 14px;
     font-weight: 900;
     letter-spacing: 0;
