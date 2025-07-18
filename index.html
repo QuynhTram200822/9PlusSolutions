@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+JP:wght@100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="./style.css">
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -31,7 +32,7 @@
             <div class="hd_nav_up">
               <p class="menu_toggle pc_hide js_openmenu">
                 <span class="menu_icon">
-                  <img class="js_menu_icon ico_open" src="./imgs/home/menu.png" alt="Mở menu">
+                  <img class="js_menu_icon ico_open" src="./imgs/home/menu-black.png" alt="Mở menu">
                   <img class="ico_close" src="./imgs/home/menu-close.png" alt="Đóng menu">
                 </span>
               </p>
@@ -39,10 +40,10 @@
             <div class="hd_nav_down sp_hide">
               <nav class="hd_nav_main">
                 <ul class="hd_nav_main_list">
-                  <li><a href="#">メニュー</a></li>
-                  <li><a href="#">メニュー</a></li>
-                  <li><a href="#">メニュー</a></li>
-                  <li><a href="#">無料で相談してみる</a></li>
+                  <li><a href="#">Giải pháp</a></li>
+                  <li><a href="#">Dự án</a></li>
+                  <li><a href="#">Quy trình</a></li>
+                  <li><a href="#">Liên hệ</a></li>
                 </ul>
               </nav>
             </div>
@@ -51,10 +52,10 @@
         <div class="spmenu js_spmenu pc_hide" id="spmenu">
           <div class="sp_nav_main">
             <ul class="sp_nav_main_list">
-              <li><a href="#">メニュー</a></li>
-              <li><a href="#">メニュー</a></li>
-              <li><a href="#">メニュー</a></li>
-              <li><a href="#">無料で相談してみる</a></li>
+              <li><a href="#">Giải pháp</a></li>
+              <li><a href="#">Dự án</a></li>
+              <li><a href="#">Quy trình</a></li>
+              <li><a href="#">Liên hệ</a></li>
             </ul>
           </div>
         </div>
@@ -64,31 +65,392 @@
       <div class="hm_mainvisual">
         <div class="mv_item">
           <div class="mv_inner">
-            <div class="container">
+            <div class="container mv_cnt_wrapper">
               <div class="mv_cnt">
-                <div class="mv_ttl">助成金×SEO対策で、<br>
-                  最大<span>80%</span>コストカット！
-                </div>
-                <div class="mv_sub-ttl">中小企業の集客課題を今すぐ解決 !
+                <div class="mv_ttl">Giải pháp <span class="text-blue">công nghệ</span> toàn diện cho <span
+                    class="text-green">doanh nghiệp Việt</span>
                 </div>
                 <div class="mv_desc">
-                  人材開発支援助成金を活用して、
-                  <span>
-                    月額コストを抑えながら検索順位アップを実現 。
-                  </span>
-                  相談・申請サポートも全てお任せ！
+                  Chúng tôi cung cấp các giải pháp Mini ERP, quản lý Homestay và chấm công AI giúp doanh nghiệp tối ưu
+                  hóa quy trình vận hành và tăng hiệu quả kinh doanh
                 </div>
                 <div class="mv_btn">
-                  <a class="is-active" href="#">無料で相談してみる</a>
-                  <a href="#">助成金対象チェックはこちら</a>
+                  <a class="regis-btn" href="#">
+                    <i class="bi bi-calendar-check-fill"></i>
+                    Đăng ký tư vấn</a>
+                  <a class="view-btn" href="#">
+                    <i class="bi bi-play-fill"></i>
+                    Xem demo</a>
+                </div>
+              </div>
+              <div class="mv_img">
+                <img src="./imgs/home/banner.jpg" alt="">
+                <div class="mv_img__badge">
+                  <div class="mv_img__badge-icon">
+                    <p>
+                      <i class="bi bi-graph-up"></i>
+                    </p>
+                  </div>
+                  <div class="mv_img__badge-content">
+                    <p class="mv_img__badge-title">Tăng hiệu quả</p>
+                    <p class="mv_img__badge-value">+85%</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <img class="mv_bottom-deco" src="./imgs/home/home bg.svg">
       </div>
+      <section class="hm-problem">
+        <div class="container">
+          <div class="hm-problem__head">
+            <h2 class="hm-problem__title">Giải pháp công nghệ hàng đầu</h2>
+            <p class="hm-problem__desc">Chúng tôi mang đến những giả pháp công nghệ tiên tiến, được thiết kế
+              riêng <br>
+              cho doanh nghiệp Việt nam</p>
+          </div>
+
+          <div class="hm-problem__list">
+            <div class="hm-problem__card erp">
+              <div class="hm-problem__card-icon">
+                <i class="bi bi-gear-wide-connected"></i>
+              </div>
+              <div class="hm-problem__card-title">Mini ERP</div>
+              <div class="hm-problem__card-desc">
+                <p>Hệ thống quản lý tài nguyên doanh nghiệp nhỏ gọn, phù hợp với SMEs Việt Nam. Tích hợp quản
+                  lý bán
+                  hàng, kho, tài chính.</p>
+                <ul>
+                  <li><i class="bi bi-check2"></i>Quản lý bán hàng</li>
+                  <li><i class="bi bi-check2"></i>Quản lý kho hàng</li>
+                  <li><i class="bi bi-check2"></i>Báo cáo tài chính</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="hm-problem__card homestay">
+              <div class="hm-problem__card-icon">
+                <i class="bi bi-house"></i>
+              </div>
+              <div class="hm-problem__card-title">Quản lý Homestay</div>
+              <div class="hm-problem__card-desc">
+                <p>Giải pháp toàn diện cho việc quản lý homestay, từ đặt phòng đến thanh toán và chăm sóc
+                  khách hàng.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2"></i>Quản lý bán hàng</li>
+                  <li><i class="bi bi-check2"></i>Quản lý kho hàng</li>
+                  <li><i class="bi bi-check2"></i>Báo cáo tài chính</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="hm-problem__card ai">
+              <div class="hm-problem__card-icon">
+                <i class="bi bi-cpu-fill"></i>
+              </div>
+              <div class="hm-problem__card-title">Chấm công AI</div>
+              <div class="hm-problem__card-desc">
+                <p>Hệ thống chấm công thông minh sử dụng AI nhận diện khuôn mặt, đảm bảo chính xác và bảo mật
+                  cao.</p>
+                <ul>
+                  <li><i class="bi bi-check2"></i> Nhận diện khuôn mặt</li>
+                  <li><i class="bi bi-check2"></i> Báo cáo tự động</li>
+                  <li><i class="bi bi-check2"></i> Tích hợp lương</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hm-value">
+        <div class="container">
+          <div class="hm-value__wrapp">
+            <!-- Khối bên trái: Giá trị -->
+            <div class="hm-value__left">
+              <h2 class="hm-value__title">Giá trị mang lại cho doanh nghiệp</h2>
+              <div class="hm-value__item is-orange">
+                <div class="hm-value__icon "><i class="bi bi-rocket"></i></div>
+                <div class="hm-value__content">
+                  <h5>Tăng hiệu quả vận hành</h5>
+                  <p>Tự động hóa quy trình, giảm thời gian xử lý công việc lên đến 70%</p>
+                </div>
+              </div>
+              <div class="hm-value__item is-green">
+                <div class="hm-value__icon"><i class="bi bi-graph-up"></i></div>
+                <div class="hm-value__content">
+                  <h5>Tối ưu chi phí</h5>
+                  <p>Giảm chi phí vận hành và nhân sự, tăng lợi nhuận doanh nghiệp</p>
+                </div>
+              </div>
+              <div class="hm-value__item is-purple">
+                <div class="hm-value__icon"><i class="bi bi-shield-shaded"></i></div>
+                <div class="hm-value__content">
+                  <h5>Bảo mật cao</h5>
+                  <p>Đảm bảo an toàn dữ liệu với công nghệ mã hóa tiên tiến</p>
+                </div>
+              </div>
+            </div>
+            <!-- Khối bên phải: Số liệu nổi bật -->
+            <div class="hm-value__right">
+              <div class="hm-value__stats">
+                <div class="hm-value__stat-block">
+                  <p class="char-1">500+</p>
+                  <p>Doanh nghiệp tin tưởng</p>
+                </div>
+                <div class="hm-value__stat-block">
+                  <p class="char-2">99.9%</p>
+                  <p>Uptime đảm bảo</p>
+                </div>
+              </div>
+              <div class="hm-value__stats">
+                <div class="hm-value__stat-block">
+                  <p class="char-3">24/7</p>
+                  <p>Hỗ trợ kỹ thuật</p>
+                </div>
+                <div class="hm-value__stat-block">
+                  <p class="char-4">5 <i class="bi bi-star-fill"></i></p>
+                  <p>Đánh giá khách hàng</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="hm_project">
+        <div class="container">
+          <div class="hm_project__header">
+            <h2 class="hm_project__title">Dự án tiêu biểu</h2>
+            <p class="hm_project__subtitle">Những thành công đã được khách hàng ghi nhận và tin tưởng</p>
+          </div>
+          <div class="hm_project__list">
+            <div class="hm_project__item">
+              <img class="hm_project__image" src="./imgs/home/project-1.jpg" alt="">
+              <div class="hm_project__content">
+                <div class="hm_project__description">
+                  <h4 class="hm_project__name">Hệ thống Homestay Đà Lạt</h4>
+                  <p class="hm_project__text">
+                    Triển khai hệ thống quản lý homestay hoàn chỉnh cho chuỗi 15 homestay tại Đà Lạt, tăng doanh thu
+                    150% sau 6 tháng.
+                  </p>
+                </div>
+                <div class="hm_project__stats">
+                  <div class="hm_project__stat">
+                    <p class="hm_project__stat-value">150%</p>
+                    <p class="hm_project__stat-label">Tăng doanh thu</p>
+                  </div>
+                  <div class="hm_project__stat">
+                    <p class="hm_project__stat-value">98%</p>
+                    <p class="hm_project__stat-label">Tỷ lệ hài lòng</p>
+                  </div>
+                </div>
+                <div class="hm_project__author">
+                  <div class="hm_project__author-avatar">
+                    <img src="./imgs/home/ava-1.jpeg" alt="">
+                  </div>
+                  <div class="hm_project__author-info">
+                    <p class="hm_project__author-name">Nguyễn Thị Mai</p>
+                    <p class="hm_project__author-role">Chủ chuỗi Homestay Đà Lạt</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hm_project__item">
+              <img class="hm_project__image" src="./imgs/home/project-2.jpeg" alt="">
+              <div class="hm_project__content">
+                <div class="hm_project__description">
+                  <h4 class="hm_project__name">Chấm công AI - Công ty ABC </h4>
+                  <p class="hm_project__text">
+                    Hệ thống chấm công AI cho 200+ nhân viên, giảm 90% thời gian xử lý chấm công và loại bỏ hoàn toàn
+                    gian lận
+                  </p>
+                </div>
+                <div class="hm_project__stats">
+                  <div class="hm_project__stat">
+                    <p class="hm_project__stat-value">90%</p>
+                    <p class="hm_project__stat-label">Tiết kiệm thời gian</p>
+                  </div>
+                  <div class="hm_project__stat">
+                    <p class="hm_project__stat-value">0%</p>
+                    <p class="hm_project__stat-label">Gian lận chấm công</p>
+                  </div>
+</div>
+                <div class="hm_project__author">
+                  <div class="hm_project__author-avatar">
+                    <img src="./imgs/home/ava-2.jpeg" alt="">
+                  </div>
+                  <div class="hm_project__author-info">
+                    <p class="hm_project__author-name">Trần Văn Nam</p>
+                    <p class="hm_project__author-role">Giám đốc Nhân sự - Công ty ABC</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hm_project__item">
+              <img class="hm_project__image" src="./imgs/home/project-1.jpg" alt="">
+              <div class="hm_project__content">
+                <div class="hm_project__description">
+                  <h4 class="hm_project__name">Hệ thống Homestay Đà Lạt</h4>
+                  <p class="hm_project__text">
+                    Triển khai hệ thống quản lý homestay hoàn chỉnh cho chuỗi 15 homestay tại Đà Lạt, tăng doanh thu
+                    150% sau 6 tháng.
+                  </p>
+                </div>
+                <div class="hm_project__stats">
+                  <div class="hm_project__stat">
+                    <p class="hm_project__stat-value">150%</p>
+                    <p class="hm_project__stat-label">Tăng doanh thu</p>
+                  </div>
+                  <div class="hm_project__stat">
+                    <p class="hm_project__stat-value">98%</p>
+                    <p class="hm_project__stat-label">Tỷ lệ hài lòng</p>
+                  </div>
+                </div>
+                <div class="hm_project__author">
+                  <div class="hm_project__author-avatar">
+                    <img src="./imgs/home/ava-1.jpeg" alt="">
+                  </div>
+                  <div class="hm_project__author-info">
+                    <p class="hm_project__author-name">Nguyễn Thị Mai</p>
+                    <p class="hm_project__author-role">Chủ chuỗi Homestay Đà Lạt</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hm_project__item">
+              <img class="hm_project__image" src="./imgs/home/project-2.jpeg" alt="">
+              <div class="hm_project__content">
+                <div class="hm_project__description">
+                  <h4 class="hm_project__name">Chấm công AI - Công ty ABC </h4>
+                  <p class="hm_project__text">
+                    Hệ thống chấm công AI cho 200+ nhân viên, giảm 90% thời gian xử lý chấm công và loại bỏ hoàn toàn
+                    gian lận
+                  </p>
+                </div>
+                <div class="hm_project__stats">
+                  <div class="hm_project__stat">
+                    <p class="hm_project__stat-value">90%</p>
+                    <p class="hm_project__stat-label">Tiết kiệm thời gian</p>
+                  </div>
+<div class="hm_project__stat">
+                    <p class="hm_project__stat-value">0%</p>
+                    <p class="hm_project__stat-label">Gian lận chấm công</p>
+                  </div>
+                </div>
+                <div class="hm_project__author">
+                  <div class="hm_project__author-avatar">
+                    <img src="./imgs/home/ava-2.jpeg" alt="">
+                  </div>
+                  <div class="hm_project__author-info">
+                    <p class="hm_project__author-name">Trần Văn Nam</p>
+                    <p class="hm_project__author-role">Giám đốc Nhân sự - Công ty ABC</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="workflow">
+        <div class="container">
+          <div class="workflow__header">
+            <h2 class="workflow__title">Quy trình triển khai</h2>
+            <p class="workflow__subtitle">4 bước đơn giản để bắt đầu chuyển đổi số</p>
+          </div>
+          <div class="workflow__steps">
+            <div class="workflow__step">
+              <div class="workflow__number char-1">1</div>
+              <h5 class="workflow__step-title">Tư vấn & Phân tích</h5>
+              <p class="workflow__step-desc">Đánh giá nhu cầu và đưa ra giải pháp phù hợp</p>
+            </div>
+            <div class="workflow__step">
+              <div class="workflow__number char-2">2</div>
+              <h5 class="workflow__step-title">Thiết kế & Demo</h5>
+              <p class="workflow__step-desc">Xây dựng prototype và demo sản phẩm</p>
+            </div>
+            <div class="workflow__step">
+              <div class="workflow__number char-3">3</div>
+              <h5 class="workflow__step-title">Phát triển</h5>
+              <p class="workflow__step-desc">Lập trình và tích hợp hệ thống</p>
+            </div>
+            <div class="workflow__step">
+              <div class="workflow__number char-4">4</div>
+              <h5 class="workflow__step-title">Triển khai & Hỗ trợ</h5>
+              <p class="workflow__step-desc">Go-live và đào tạo sử dụng</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+<footer class="site-footer">
+  <div class="site-footer__cta">
+    <div class="container">
+      <div class="site-footer__cta-inner">
+      <div class="site-footer__cta-header">
+        <h2 class="site-footer__cta-title">Sẵn sàng chuyển đổi số?</h2>
+        <p class="site-footer__cta-desc">Liên hệ ngay để được tư vấn miễn phí và xem demo sản phẩm</p>
+      </div>
+      <div class="site-footer__cta-actions">
+        <a class="cta-btn cta-btn--primary" href="#">
+          <i class="bi bi-telephone"></i>
+          Gọi tư vấn: +84-919-533-034
+        </a>
+        <a class="cta-btn cta-btn--secondary" href="#">
+          <i class="bi bi-envelope"></i>
+          Email: admin@nineplus.com.vn
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="site-footer__content">
+    <div class="site-footer__column site-footer__column--brand">
+      <a class="site-footer__logo" href="#">
+        <img src="./imgs/home/logo.png" alt="NinePlus Solution., JSC">
+      </a>
+      <p class="site-footer__slogan">Giải pháp công nghệ cho doanh nghiệp Việt Nam</p>
+      <div class="site-footer__socials">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-youtube"></i>
+      </div>
+    </div>
+
+    <div class="site-footer__column site-footer__column--links">
+      <div class="site-footer__section">
+        <h3 class="site-footer__section-title">Giải pháp</h3>
+        <ul class="site-footer__list">
+          <li class="site-footer__item">Mini ERP</li>
+          <li class="site-footer__item">Quản lý Homestay</li>
+          <li class="site-footer__item">Chấm công AI</li>
+        </ul>
+      </div>
+
+      <div class="site-footer__section">
+        <h3 class="site-footer__section-title">Công ty</h3>
+        <ul class="site-footer__list">
+          <li class="site-footer__item">Về chúng tôi</li>
+          <li class="site-footer__item">Dự án</li>
+          <li class="site-footer__item">Tin tức</li>
+          <li class="site-footer__item">Tuyển dụng</li>
+        </ul>
+      </div>
+
+      <div class="site-footer__section">
+        <h3 class="site-footer__section-title">Liên hệ</h3>
+        <ul class="site-footer__list">
+          <li class="site-footer__item">
+            <i class="bi bi-telephone"></i> +84-919-533-034
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</footer>
+
   </div>
   <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="./js/common.js"></script>
