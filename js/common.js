@@ -93,12 +93,8 @@ jQuery(function ($) {
   $(window).on("scroll", function () {
     if ($(this).scrollTop() > offset) {
       $header.addClass("is-fixed");
-      $logo.attr("src", "./imgs/home/logo-fix.png");
-      $menuIcon.attr("src", "./imgs/home/menu-black.png");
     } else {
       $header.removeClass("is-fixed");
-      $logo.attr("src", "./imgs/home/logo.png");
-      $menuIcon.attr("src", "./imgs/home/menu.png");
     }
   });
 });
