@@ -12,8 +12,11 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
 </head>
 
 <body class="home">
@@ -103,23 +106,20 @@
       </div>
       <section class="hm-problem">
         <div class="container">
-          <div class="hm-problem__head">
+          <div class="hm-problem__head wow animate__fadeInDown" data-wow-delay="0s">
             <h2 class="hm-problem__title">Giải pháp công nghệ hàng đầu</h2>
-            <p class="hm-problem__desc">Chúng tôi mang đến những giả pháp công nghệ tiên tiến, được thiết kế
-              riêng <br>
-              cho doanh nghiệp Việt nam</p>
+            <p class="hm-problem__desc">
+              Chúng tôi mang đến những giải pháp công nghệ tiên tiến, được thiết kế riêng <br>
+              cho doanh nghiệp Việt Nam
+            </p>
           </div>
 
           <div class="hm-problem__list">
-            <div class="hm-problem__card erp">
-              <div class="hm-problem__card-icon">
-                <i class="bi bi-gear-wide-connected"></i>
-              </div>
+            <div class="hm-problem__card erp wow animate__fadeInUp" data-wow-delay="0.3s">
+              <div class="hm-problem__card-icon"><i class="bi bi-gear-wide-connected"></i></div>
               <div class="hm-problem__card-title">Mini ERP</div>
               <div class="hm-problem__card-desc">
-                <p>Hệ thống quản lý tài nguyên doanh nghiệp nhỏ gọn, phù hợp với SMEs Việt Nam. Tích hợp quản
-                  lý bán
-                  hàng, kho, tài chính.</p>
+                <p>Hệ thống quản lý tài nguyên doanh nghiệp nhỏ gọn...</p>
                 <ul>
                   <li><i class="bi bi-check2"></i>Quản lý bán hàng</li>
                   <li><i class="bi bi-check2"></i>Quản lý kho hàng</li>
@@ -128,87 +128,86 @@
               </div>
             </div>
 
-            <div class="hm-problem__card homestay">
-              <div class="hm-problem__card-icon">
-                <i class="bi bi-house"></i>
-              </div>
+            <div class="hm-problem__card homestay wow animate__fadeInUp" data-wow-delay="0.6s">
+              <div class="hm-problem__card-icon"><i class="bi bi-house"></i></div>
               <div class="hm-problem__card-title">Quản lý Homestay</div>
               <div class="hm-problem__card-desc">
-                <p>Giải pháp toàn diện cho việc quản lý homestay, từ đặt phòng đến thanh toán và chăm sóc
-                  khách hàng.
-                </p>
+                <p>Giải pháp toàn diện cho quản lý homestay...</p>
                 <ul>
-                  <li><i class="bi bi-check2"></i>Quản lý bán hàng</li>
-                  <li><i class="bi bi-check2"></i>Quản lý kho hàng</li>
-                  <li><i class="bi bi-check2"></i>Báo cáo tài chính</li>
+                  <li><i class="bi bi-check2"></i> Quản lý đặt phòng</li>
+                  <li><i class="bi bi-check2"></i> Theo dõi khách hàng</li>
+                  <li><i class="bi bi-check2"></i> Thanh toán & chăm sóc</li>
                 </ul>
               </div>
             </div>
 
-            <div class="hm-problem__card ai">
-              <div class="hm-problem__card-icon">
-                <i class="bi bi-cpu-fill"></i>
-              </div>
+            <div class="hm-problem__card ai wow animate__fadeInUp" data-wow-delay="0.9s">
+              <div class="hm-problem__card-icon"><i class="bi bi-cpu-fill"></i></div>
               <div class="hm-problem__card-title">Chấm công AI</div>
               <div class="hm-problem__card-desc">
-                <p>Hệ thống chấm công thông minh sử dụng AI nhận diện khuôn mặt, đảm bảo chính xác và bảo mật
-                  cao.</p>
+                <p>Chấm công bằng AI nhận diện khuôn mặt...</p>
                 <ul>
                   <li><i class="bi bi-check2"></i> Nhận diện khuôn mặt</li>
                   <li><i class="bi bi-check2"></i> Báo cáo tự động</li>
-                  <li><i class="bi bi-check2"></i> Tích hợp lương</li>
+                  <li><i class="bi bi-check2"></i> Tích hợp tính lương</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section class="hm-value">
         <div class="container">
           <div class="hm-value__wrapp">
-            <!-- Khối bên trái: Giá trị -->
-            <div class="hm-value__left">
+            <!-- Trái -->
+            <div class="hm-value__left wow animate__fadeInLeft" data-wow-delay="0s">
               <h2 class="hm-value__title">Giá trị mang lại cho doanh nghiệp</h2>
-              <div class="hm-value__item is-orange">
-                <div class="hm-value__icon "><i class="bi bi-rocket"></i></div>
+
+              <div class="hm-value__item is-orange wow animate__fadeInLeft" data-wow-delay="0.3s">
+                <div class="hm-value__icon"><i class="bi bi-rocket"></i></div>
                 <div class="hm-value__content">
                   <h5>Tăng hiệu quả vận hành</h5>
-                  <p>Tự động hóa quy trình, giảm thời gian xử lý công việc lên đến 70%</p>
+                  <p>Tự động hóa quy trình...</p>
                 </div>
               </div>
-              <div class="hm-value__item is-green">
+
+              <div class="hm-value__item is-green wow animate__fadeInLeft" data-wow-delay="0.6s">
                 <div class="hm-value__icon"><i class="bi bi-graph-up"></i></div>
                 <div class="hm-value__content">
                   <h5>Tối ưu chi phí</h5>
-                  <p>Giảm chi phí vận hành và nhân sự, tăng lợi nhuận doanh nghiệp</p>
+                  <p>Giảm chi phí vận hành...</p>
                 </div>
               </div>
-              <div class="hm-value__item is-purple">
+
+              <div class="hm-value__item is-purple wow animate__fadeInLeft" data-wow-delay="0.9s">
                 <div class="hm-value__icon"><i class="bi bi-shield-shaded"></i></div>
                 <div class="hm-value__content">
                   <h5>Bảo mật cao</h5>
-                  <p>Đảm bảo an toàn dữ liệu với công nghệ mã hóa tiên tiến</p>
+                  <p>Đảm bảo an toàn dữ liệu...</p>
                 </div>
               </div>
             </div>
-            <!-- Khối bên phải: Số liệu nổi bật -->
-            <div class="hm-value__right">
+
+            <!-- Phải -->
+            <div class="hm-value__right wow animate__fadeInUp" data-wow-delay="1.1s">
               <div class="hm-value__stats">
-                <div class="hm-value__stat-block">
+                <div class="hm-value__stat-block wow animate__fadeInUp" data-wow-delay="1.3s">
                   <p class="char-1">500+</p>
                   <p>Doanh nghiệp tin tưởng</p>
                 </div>
-                <div class="hm-value__stat-block">
+                <div class="hm-value__stat-block wow animate__fadeInUp" data-wow-delay="1.5s">
                   <p class="char-2">99.9%</p>
                   <p>Uptime đảm bảo</p>
                 </div>
               </div>
+
               <div class="hm-value__stats">
-                <div class="hm-value__stat-block">
+                <div class="hm-value__stat-block wow animate__fadeInUp" data-wow-delay="1.8s">
                   <p class="char-3">24/7</p>
                   <p>Hỗ trợ kỹ thuật</p>
                 </div>
-                <div class="hm-value__stat-block">
+                <div class="hm-value__stat-block wow animate__fadeInUp" data-wow-delay="2.1s">
                   <p class="char-4">5 <i class="bi bi-star-fill"></i></p>
                   <p>Đánh giá khách hàng</p>
                 </div>
@@ -274,7 +273,7 @@
                     <p class="hm_project__stat-value">0%</p>
                     <p class="hm_project__stat-label">Gian lận chấm công</p>
                   </div>
-</div>
+                </div>
                 <div class="hm_project__author">
                   <div class="hm_project__author-avatar">
                     <img src="./imgs/home/ava-2.jpeg" alt="">
@@ -332,7 +331,7 @@
                     <p class="hm_project__stat-value">90%</p>
                     <p class="hm_project__stat-label">Tiết kiệm thời gian</p>
                   </div>
-<div class="hm_project__stat">
+                  <div class="hm_project__stat">
                     <p class="hm_project__stat-value">0%</p>
                     <p class="hm_project__stat-label">Gian lận chấm công</p>
                   </div>
@@ -354,26 +353,31 @@
       <section class="workflow">
         <div class="container">
           <div class="workflow__header">
-            <h2 class="workflow__title">Quy trình triển khai</h2>
-            <p class="workflow__subtitle">4 bước đơn giản để bắt đầu chuyển đổi số</p>
+            <h2 class="workflow__title wow animate__animated animate__fadeInUp" data-wow-offset="100"
+              data-wow-duration="1s">
+              Quy trình triển khai
+            </h2>
+            <p class="workflow__subtitle wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+              4 bước đơn giản để bắt đầu chuyển đổi số
+            </p>
           </div>
           <div class="workflow__steps">
-            <div class="workflow__step">
+            <div class="workflow__step wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
               <div class="workflow__number char-1">1</div>
               <h5 class="workflow__step-title">Tư vấn & Phân tích</h5>
               <p class="workflow__step-desc">Đánh giá nhu cầu và đưa ra giải pháp phù hợp</p>
             </div>
-            <div class="workflow__step">
+            <div class="workflow__step wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
               <div class="workflow__number char-2">2</div>
               <h5 class="workflow__step-title">Thiết kế & Demo</h5>
               <p class="workflow__step-desc">Xây dựng prototype và demo sản phẩm</p>
             </div>
-            <div class="workflow__step">
+            <div class="workflow__step wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
               <div class="workflow__number char-3">3</div>
               <h5 class="workflow__step-title">Phát triển</h5>
               <p class="workflow__step-desc">Lập trình và tích hợp hệ thống</p>
             </div>
-            <div class="workflow__step">
+            <div class="workflow__step wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
               <div class="workflow__number char-4">4</div>
               <h5 class="workflow__step-title">Triển khai & Hỗ trợ</h5>
               <p class="workflow__step-desc">Go-live và đào tạo sử dụng</p>
@@ -381,80 +385,94 @@
           </div>
         </div>
       </section>
+
+
     </main>
-<footer class="site-footer">
-  <div class="site-footer__cta">
-    <div class="container">
-      <div class="site-footer__cta-inner">
-      <div class="site-footer__cta-header">
-        <h2 class="site-footer__cta-title">Sẵn sàng chuyển đổi số?</h2>
-        <p class="site-footer__cta-desc">Liên hệ ngay để được tư vấn miễn phí và xem demo sản phẩm</p>
-      </div>
-      <div class="site-footer__cta-actions">
-        <a class="cta-btn cta-btn--primary" href="#">
-          <i class="bi bi-telephone"></i>
-          Gọi tư vấn: +84-919-533-034
-        </a>
-        <a class="cta-btn cta-btn--secondary" href="#">
-          <i class="bi bi-envelope"></i>
-          Email: admin@nineplus.com.vn
-        </a>
-      </div>
-    </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="site-footer__content">
-    <div class="site-footer__column site-footer__column--brand">
-      <a class="site-footer__logo" href="#">
-        <img src="./imgs/home/logo.png" alt="NinePlus Solution., JSC">
-      </a>
-      <p class="site-footer__slogan">Giải pháp công nghệ cho doanh nghiệp Việt Nam</p>
-      <div class="site-footer__socials">
-        <i class="bi bi-facebook"></i>
-        <i class="bi bi-linkedin"></i>
-        <i class="bi bi-youtube"></i>
-      </div>
-    </div>
-
-    <div class="site-footer__column site-footer__column--links">
-      <div class="site-footer__section">
-        <h3 class="site-footer__section-title">Giải pháp</h3>
-        <ul class="site-footer__list">
-          <li class="site-footer__item">Mini ERP</li>
-          <li class="site-footer__item">Quản lý Homestay</li>
-          <li class="site-footer__item">Chấm công AI</li>
-        </ul>
+    <footer class="site-footer">
+      <div class="site-footer__cta">
+        <div class="container">
+          <div class="site-footer__cta-inner">
+            <div class="site-footer__cta-header">
+              <h2 class="site-footer__cta-title">Sẵn sàng chuyển đổi số?</h2>
+              <p class="site-footer__cta-desc">Liên hệ ngay để được tư vấn miễn phí và xem demo sản phẩm</p>
+            </div>
+            <div class="site-footer__cta-actions">
+              <a class="cta-btn cta-btn--primary" href="#">
+                <i class="bi bi-telephone"></i>
+                Gọi tư vấn: +84-919-533-034
+              </a>
+              <a class="cta-btn cta-btn--secondary" href="#">
+                <i class="bi bi-envelope"></i>
+                Email: admin@nineplus.com.vn
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="site-footer__section">
-        <h3 class="site-footer__section-title">Công ty</h3>
-        <ul class="site-footer__list">
-          <li class="site-footer__item">Về chúng tôi</li>
-          <li class="site-footer__item">Dự án</li>
-          <li class="site-footer__item">Tin tức</li>
-          <li class="site-footer__item">Tuyển dụng</li>
-        </ul>
-      </div>
+      <div class="container">
+        <div class="site-footer__content">
+          <div class="site-footer__column site-footer__column--brand">
+            <a class="site-footer__logo" href="#">
+              <img src="./imgs/home/logo.png" alt="NinePlus Solution., JSC">
+            </a>
+            <p class="site-footer__slogan">Giải pháp công nghệ cho doanh nghiệp Việt Nam</p>
+            <div class="site-footer__socials">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-linkedin"></i>
+              <i class="bi bi-youtube"></i>
+            </div>
+          </div>
 
-      <div class="site-footer__section">
-        <h3 class="site-footer__section-title">Liên hệ</h3>
-        <ul class="site-footer__list">
-          <li class="site-footer__item">
-            <i class="bi bi-telephone"></i> +84-919-533-034
-          </li>
-        </ul>
+          <div class="site-footer__column site-footer__column--links">
+            <div class="site-footer__section">
+              <h3 class="site-footer__section-title">Giải pháp</h3>
+              <ul class="site-footer__list">
+                <li class="site-footer__item">Mini ERP</li>
+                <li class="site-footer__item">Quản lý Homestay</li>
+                <li class="site-footer__item">Chấm công AI</li>
+              </ul>
+            </div>
+
+            <div class="site-footer__section">
+              <h3 class="site-footer__section-title">Công ty</h3>
+              <ul class="site-footer__list">
+                <li class="site-footer__item">Về chúng tôi</li>
+                <li class="site-footer__item">Dự án</li>
+                <li class="site-footer__item">Tin tức</li>
+                <li class="site-footer__item">Tuyển dụng</li>
+              </ul>
+            </div>
+
+            <div class="site-footer__section">
+              <h3 class="site-footer__section-title">Liên hệ</h3>
+              <ul class="site-footer__list">
+                <li class="site-footer__item">
+                  <i class="bi bi-telephone"></i> +84-919-533-034
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  </div>
-</footer>
+    </footer>
 
   </div>
   <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="./js/common.js"></script>
   <script src="./js/home.js"></script>
+  <script>
+    new WOW({
+      boxClass: 'wow',
+      animateClass: 'animate__animated',
+      offset: 100,
+      mobile: true,
+      live: true,
+      resetAnimation: true 
+    }).init();
+  </script>
+
+
 </body>
 
 </html>

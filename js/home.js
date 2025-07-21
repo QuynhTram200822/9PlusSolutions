@@ -6,8 +6,11 @@ jQuery(function ($) {
     autoplay: false,
     autoplaySpeed: 5000,
     speed: 2000,
+      autoplaySpeed: 2000,
     dots: false,
-    pauseOnHover: false,
+     autoplay: true,
+    pauseOnHover: true,
+    cssEase: "ease-in-out",
     responsive: [
       {
         breakpoint: 768,
@@ -19,3 +22,4 @@ jQuery(function ($) {
     ],
   });
 });
+
